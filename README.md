@@ -16,7 +16,7 @@
 - 1 υπολογιστή
 
 ### Συνδεσμολογία
-![alt text]( "Εικόνα Πλακέτας")
+![alt text](https://github.com/sortingbubbles/genuino-day-2016/blob/master/sketch.png "Εικόνα Πλακέτας")
 
 ### Κώδικας
 ```c
