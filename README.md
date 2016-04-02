@@ -25,8 +25,7 @@ int yellow = 12; //κίτρινο φωτάκι στο pin 12
 int green = 11; //πράσινο φωτάκι στο pin 11
 int button = 2; //κουμπί στο pin 2
 int buttonValue = LOW; //αρχική τιμή στο κουμπί 0 - δεν είναι πατημένο
-void setup()
-{
+void setup(){
 	pinMode(red,OUTPUT);//κατάσταση εξόδου για το κόκκινο φωτάκι
 	pinMode(yellow,OUTPUT);//κατάσταση εξόδου για το κίτρινο φωτάκι
 	pinMode(green,OUTPUT);//κατάσταση εξόδου για το πράσινο φωτάκι
@@ -34,8 +33,7 @@ void setup()
 	digitalWrite(green,HIGH);//άναψε το πράσινο φωτάκι
 }
 
-void loop()
-{
+void loop(){
 	buttonValue = digitalRead(button);//έλεγχος κατάστασης κουμπιού
 	
 	//εάν το κουμπί είναι πατημένο
